@@ -1,0 +1,75 @@
+* {
+	font-family: 'bass_bay';
+}
+
+
+.PopupOutter {
+	position:fixed;
+	z-index: 5;
+	width: 800px;
+	height: 400px;
+	background-color: #231F20;
+	border-radius: 15%;
+
+	/* Positioning */
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	top: 175px;
+	box-shadow: 0px 1px 8px 0 #999999;
+
+}
+.PopupInner {
+	position:fixed;
+	z-index: 6;
+	width: 700px;
+	height: 340px;
+	background-color: white;
+	border-radius: 15%;
+	margin-left: 50px;
+	margin-top: 30px;
+	box-shadow: 0px 1px 2px 0 #999999;
+	border: 1px solid grey;
+
+}
+
+.PopupContent {
+	width: 640px;
+	height: 270px;
+	margin: 30px;
+}
+
+.PopupNameDiv {
+	font-size: 26px;
+	marginLeft: 30px; 
+	marginTop: 30px;
+}
+
+.PopupDescriptionDiv {
+	marginLeft: 30px;
+	marginTop: 30px;
+}
+
+.PopupCloseButtonDiv {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+
+}
+
+.PopupBg {
+	width: 100%;
+	height: 100%;
+	background-color: #231F20;
+	position: fixed;
+	z-index: 4;
+	opacity: .3;
+}
+
+
+
+
+
+
+
+
